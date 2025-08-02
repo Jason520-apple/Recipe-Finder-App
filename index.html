@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe and Meal Planner App</title>
+    <link rel="stylesheet" href=design.css>
+</head>
+
+<body>
+    <h1> Recipe and Meal Planner App 🧑‍🍳 </h1>
+
+
+    <div id="header">
+
+        <img src=kitchen.png alt="Kitchen Image" width="500" height="300"> <br> <br>
+
+        <h2>Welcome to the Recipe and Meal Planner App!</h2>
+        <p>This app will help you plan your meals and suggest recipes based on your preferences. Please enter the
+            ingredients that you want to use,
+            then click on the search button to search for recipes by ingredients or meal type! </p> <br>
+
+    </div>
+    <input type="text" id="ingredientsInput" placeholder="Enter ingredients here...">
+    <button id="addButton">Add</button>
+    <br><br>
+
+    <ul id="ingredientsList"></ul>
+
+    <button id="searchButton">Search</button>
+
+    <!-- After clicking search, an unordered list will hold the recipes -->
+    <ul id="searchResults"></ul>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
